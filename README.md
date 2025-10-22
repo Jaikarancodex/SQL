@@ -53,11 +53,58 @@ Removes all rows instantly and resets IDENTITY numbers.Structure and constraints
 <img width="1425" height="158" alt="image" src="https://github.com/user-attachments/assets/eec326fc-1c2f-487f-92e8-a650ff1ead55" />
 <img width="1455" height="171" alt="image" src="https://github.com/user-attachments/assets/3b1073f0-0cd4-4ea2-8234-78880ea86acc" />
 
-## Step 6: DROP TABLE or DATABASE
+## Step 6: DROP TABLE 
 Completely removes object (data + definition).After drop, it’s gone — you can’t select from it again unless recreated.
 ###
 <img width="1423" height="40" alt="image" src="https://github.com/user-attachments/assets/f8ec837a-ec0b-451e-acd9-36c8cea39da3" />
 <img width="1452" height="166" alt="image" src="https://github.com/user-attachments/assets/204b7e57-a290-4f66-b4ba-8a1e870bdac5" />
+
+# DML (Data Manipulation Language)
+commands that manipulate the data inside your tables.
+### INSERT, UPDATE, DELETE, SELECT
+## INSERT — Add Data into the Table
+<img width="1451" height="305" alt="image" src="https://github.com/user-attachments/assets/40f74cc6-8132-450b-8b63-9a77f588924d" />
+<img width="1447" height="222" alt="image" src="https://github.com/user-attachments/assets/9fbe042c-4f1f-4552-9b56-aeacc94f15dc" />
+
+## UPDATE — Modify Existing Data
+### Eg: Fix a phone number
+<img width="1441" height="207" alt="image" src="https://github.com/user-attachments/assets/4e8a243f-432c-42bb-8143-7217ad7f9d6d" />
+<img width="1475" height="220" alt="image" src="https://github.com/user-attachments/assets/801e8295-2a7c-41f3-9125-1cdc8490e272" />
+
+## DELETE — Remove Rows
+### Eg: Remove a single employee
+<img width="1453" height="188" alt="image" src="https://github.com/user-attachments/assets/3fc10291-22ad-4815-ab00-2118d6c7031e" />
+<img width="1463" height="221" alt="image" src="https://github.com/user-attachments/assets/83f310c8-794e-4a7b-88bc-9e3cc51c6d68" />
+
+# SELECT — Fetch / Read Data
+This is where SQL shines. You can filter, sort, and analyze data easily.
+
+## All rows
+<img width="1463" height="221" alt="image" src="https://github.com/user-attachments/assets/ec97fe41-ba42-4e7a-b8e5-0bc5895ceca4" />
+
+## Choose columns
+<img width="1476" height="212" alt="image" src="https://github.com/user-attachments/assets/63d8433e-df69-4da2-8175-dc4bef3e55dd" />
+
+## Filtering with WHERE
+<img width="1478" height="191" alt="image" src="https://github.com/user-attachments/assets/369fe116-8943-4ec4-a03f-c18e6970f0d7" />
+
+## Null checks
+<img width="1470" height="163" alt="image" src="https://github.com/user-attachments/assets/93f1b21e-da03-4b1d-baea-9b0e36e9796c" />
+
+## Pattern matching (LIKE)
+<img width="1473" height="266" alt="image" src="https://github.com/user-attachments/assets/7e32470f-0cb8-4fcd-8619-7b51a946c5f6" />
+
+## Sorting
+<img width="1475" height="265" alt="image" src="https://github.com/user-attachments/assets/f295c7ce-6d17-4064-a726-1398444cecd0" />
+
+
+
+
+
+
+
+
+
 
 
 
