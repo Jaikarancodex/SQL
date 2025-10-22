@@ -20,3 +20,11 @@ A DBMS stores data, enforces rules, and runs SQL.
 #### SQL Server: Microsoft ecosystem, enterprise features.
 
 # Basic SQL Syntax
+General patterns:
+###
+<img width="1450" height="158" alt="image" src="https://github.com/user-attachments/assets/e21c44a9-16c5-4f4f-8f88-b300f9e22d48" />
+
+##### Case-insensitive for keywords (SELECT = select).
+##### Strings use single quotes 'text'.
+##### End statements with ;.
+
