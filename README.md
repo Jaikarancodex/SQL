@@ -60,8 +60,7 @@ Completely removes object (data + definition).After drop, it’s gone — you ca
 <img width="1452" height="166" alt="image" src="https://github.com/user-attachments/assets/204b7e57-a290-4f66-b4ba-8a1e870bdac5" />
 
 # DML (Data Manipulation Language)
-commands that manipulate the data inside your tables.
-##### INSERT, UPDATE, DELETE, SELECT
+### commands that manipulate the data inside your tables -> INSERT, UPDATE, DELETE, SELECT
 ## INSERT — Add Data into the Table
 <img width="1451" height="305" alt="image" src="https://github.com/user-attachments/assets/40f74cc6-8132-450b-8b63-9a77f588924d" />
 <img width="1447" height="222" alt="image" src="https://github.com/user-attachments/assets/9fbe042c-4f1f-4552-9b56-aeacc94f15dc" />
