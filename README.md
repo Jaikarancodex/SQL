@@ -155,7 +155,19 @@ Then, go to your intern_user session and run:
 
 
 # DQL (Data Query Language): 
-## SELECT (again): Retrieving data from one or more tables.  
+## SELECT (again): Retrieving data from one or more tables. 
+<img width="1541" height="166" alt="Screenshot 2025-10-23 234125" src="https://github.com/user-attachments/assets/902a7494-470a-4aeb-acf3-fc5c23042a34" />
+
+## Aggregating data using functions like COUNT, SUM, AVG, MIN, MAX. 
+<img width="1541" height="166" alt="Screenshot 2025-10-23 234125" src="https://github.com/user-attachments/assets/902a7494-470a-4aeb-acf3-fc5c23042a34" />
+<img width="1540" height="279" alt="Screenshot 2025-10-23 234042" src="https://github.com/user-attachments/assets/0a76fb10-30d8-48fe-ada8-e2b716bb1c40" />
+
+## Grouping data with GROUP BY. 
+<img width="1537" height="279" alt="Screenshot 2025-10-23 235828" src="https://github.com/user-attachments/assets/76507963-0a49-4a9b-94d4-58f4fb2cba23" />
+
+## Filtering aggregated data with HAVING. 
+
+## Sorting results with ORDER BY. 
 
 # TCL (Transaction Control Language):
 ## COMMIT: Saving changes made during the current transaction. 
