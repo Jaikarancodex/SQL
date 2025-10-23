@@ -96,6 +96,25 @@ This is where SQL shines. You can filter, sort, and analyze data easily.
 ## Sorting (ORDER BY)
 <img width="1475" height="265" alt="image" src="https://github.com/user-attachments/assets/f295c7ce-6d17-4064-a726-1398444cecd0" />
 
+# DCL (Data Control Language):
+## GRANT: Assigning privileges to database users. 
+## REVOKE: Revoking privileges from database users.
+
+# DQL (Data Query Language): 
+## SELECT (again): Retrieving data from one or more tables.  
+
+# TCL (Transaction Control Language):
+## COMMIT: Saving changes made during the current transaction. 
+## ROLLBACK: Undoing changes made during the current transaction. 
+## SAVEPOINT: Setting a point within a transaction to which you can later roll back. 
+
+# Constraints: 
+## PRIMARY KEY: Ensuring unique and not null values in a column. 
+## FOREIGN KEY: Establishing a link between data in two tables. 
+## UNIQUE: Ensuring unique values in a column or set of columns.  
+## CHECK: Defining a condition that each row must satisfy. 
+## NOT NULL: Ensuring a column cannot have a NULL value.      
+
 
 
 
