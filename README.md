@@ -93,7 +93,7 @@ This is where SQL shines. You can filter, sort, and analyze data easily.
 ## Pattern matching (LIKE)
 <img width="1473" height="266" alt="image" src="https://github.com/user-attachments/assets/7e32470f-0cb8-4fcd-8619-7b51a946c5f6" />
 
-## Sorting
+## Sorting (ORDER BY)
 <img width="1475" height="265" alt="image" src="https://github.com/user-attachments/assets/f295c7ce-6d17-4064-a726-1398444cecd0" />
 
 
