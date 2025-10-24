@@ -163,16 +163,45 @@ Then, go to your intern_user session and run:
 <img width="1540" height="279" alt="Screenshot 2025-10-23 234042" src="https://github.com/user-attachments/assets/0a76fb10-30d8-48fe-ada8-e2b716bb1c40" />
 
 ## Grouping data with GROUP BY. 
+<img width="1627" height="251" alt="image" src="https://github.com/user-attachments/assets/2180f438-7047-494b-a789-74a59d265076" />
+
+## Sorting results with ORDER BY. 
 <img width="1537" height="279" alt="Screenshot 2025-10-23 235828" src="https://github.com/user-attachments/assets/76507963-0a49-4a9b-94d4-58f4fb2cba23" />
 
 ## Filtering aggregated data with HAVING. 
-
-## Sorting results with ORDER BY. 
+<img width="1623" height="236" alt="image" src="https://github.com/user-attachments/assets/2ba8298e-9655-41e5-bcaa-11f79c8f2ec6" />
 
 # TCL (Transaction Control Language):
 ## COMMIT: Saving changes made during the current transaction. 
+BEGIN TRANSACTION starts a “temporary change area.” -> You updated a row. -> COMMIT saves it permanently.
+###
+<img width="1586" height="301" alt="image" src="https://github.com/user-attachments/assets/1de71e04-0946-4db5-a2bd-cdc48dc93534" />
+
+##### If you check:
+<img width="1622" height="160" alt="image" src="https://github.com/user-attachments/assets/e77e9102-867c-43b1-870c-831a7da060af" />
+
+###### //You’ll see Karan’s salary increased — permanently.
+
+## SAVEPOINT: Setting a point within a transaction to which you can later roll back.
+Sometimes you want to undo some changes, not all. That’s where SAVEPOINT comes in.
+###
+<img width="1622" height="347" alt="image" src="https://github.com/user-attachments/assets/529b4993-4865-422b-9ffe-d14fd8fc6cf4" />
+
+##### Now Karan's and Aegon's salary were updated and saved as SAVEPOINT.
+<img width="1626" height="202" alt="image" src="https://github.com/user-attachments/assets/5c5f4de8-3e1a-4c22-80f0-fee1096a91aa" />
+
 ## ROLLBACK: Undoing changes made during the current transaction. 
-## SAVEPOINT: Setting a point within a transaction to which you can later roll back. 
+##### ->The change happens temporarily.  
+##### ->ROLLBACK cancels it — like Ctrl+Z for your database. 
+##### ->The salary stays the same as before.
+<img width="1623" height="165" alt="image" src="https://github.com/user-attachments/assets/3041fdff-879a-412a-851b-b8b1d6e776cd" />
+
+##### Now Aegon’s change is undone. Because we saved his update as sp2: -> undo everything after sp1
+<img width="1630" height="197" alt="image" src="https://github.com/user-attachments/assets/2eaf6c7d-299f-458b-9aaa-23823b26483e" />
+
+##### COMMIT finalizes everything before sp1.
+<img width="1617" height="141" alt="image" src="https://github.com/user-attachments/assets/61bb4dd2-62ff-4a51-9a8a-ac58063d2947" />
+
 
 # Constraints: 
 ## PRIMARY KEY: Ensuring unique and not null values in a column. 
