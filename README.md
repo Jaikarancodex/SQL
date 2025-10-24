@@ -1,4 +1,4 @@
-# SQL
+# 🌐SQL
 # Relational Database Basics
 A structured collection of data organized into tables that relate to each other via keys. It enforces consistency with rules (constraints) and lets you query with SQL.
 #### Table ≈ spreadsheet.
@@ -205,10 +205,45 @@ Sometimes you want to undo some changes, not all. That’s where SAVEPOINT comes
 
 # Constraints: 
 ## PRIMARY KEY: Ensuring unique and not null values in a column. 
+##### -> Purpose: Uniquely identifies every row in a table.
+##### -> Must be unique and not null.
+##### -> Only one primary key per table (but it can include multiple columns).
+<img width="1618" height="176" alt="Screenshot 2025-10-24 104915" src="https://github.com/user-attachments/assets/9bb39eec-1906-4f9e-8e58-c2eb4009d88d" />
+
+##### SQL will reject the second insert.
+<img width="1601" height="215" alt="Screenshot 2025-10-24 105008" src="https://github.com/user-attachments/assets/2b2ebab0-6350-495d-9ffc-b2bfffab6eec" />
+
 ## FOREIGN KEY: Establishing a link between data in two tables. 
-## UNIQUE: Ensuring unique values in a column or set of columns.  
+##### Purpose: Creates a relationship between two tables — links a column in one table to a primary key in another.
+### 
+<img width="1626" height="212" alt="Screenshot 2025-10-24 105248" src="https://github.com/user-attachments/assets/43b459c8-85aa-456d-97ff-df7dbbae967b" />
+
+##### Now, you can only insert employees whose DeptID exists in the Departments table.
+<img width="1625" height="179" alt="Screenshot 2025-10-24 105354" src="https://github.com/user-attachments/assets/6cb080fe-a3b0-447e-97c3-7ff79578df0b" />
+
+## UNIQUE: Ensuring unique values in a column or set of columns. 
+##### Ensures all values in a column (or combination of columns) are unique,but unlike primary key — a table can have many unique constraints, and they can contain NULLs.
+<img width="1629" height="206" alt="Screenshot 2025-10-24 105540" src="https://github.com/user-attachments/assets/0e76b76f-06d7-4f20-bf16-5491c3627687" />
+
+###### //Both RollNo and Email must be unique.If you insert the same email twice → error.
+
 ## CHECK: Defining a condition that each row must satisfy. 
-## NOT NULL: Ensuring a column cannot have a NULL value.      
+##### Defines a condition each row must satisfy — basically data validation.
+<img width="1627" height="195" alt="Screenshot 2025-10-24 105815" src="https://github.com/user-attachments/assets/94585c4b-47e4-4caa-8c67-0651cf998590" />
+<img width="1622" height="171" alt="Screenshot 2025-10-24 105856" src="https://github.com/user-attachments/assets/5a40e092-9650-4909-8692-597b15c60723" />
+
+
+## NOT NULL: Ensuring a column cannot have a NULL value.
+##### Prevents null (empty) values in a column. Use it when every row must have a value.
+<img width="1629" height="210" alt="Screenshot 2025-10-24 105934" src="https://github.com/user-attachments/assets/03b8b58a-10a6-4948-8f7f-220914134c41" />
+
+
+##### You must provide both ProductName and Price for every insert.
+<img width="1623" height="162" alt="Screenshot 2025-10-24 110057" src="https://github.com/user-attachments/assets/dae14ac0-dd95-4bb3-8350-d55b4c71a89b" />
+
+
+
+
 
 
 
