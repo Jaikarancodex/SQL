@@ -237,10 +237,77 @@ Sometimes you want to undo some changes, not all. That’s where SAVEPOINT comes
 ##### Prevents null (empty) values in a column. Use it when every row must have a value.
 <img width="1629" height="210" alt="Screenshot 2025-10-24 105934" src="https://github.com/user-attachments/assets/03b8b58a-10a6-4948-8f7f-220914134c41" />
 
-
 ##### You must provide both ProductName and Price for every insert.
 <img width="1623" height="162" alt="Screenshot 2025-10-24 110057" src="https://github.com/user-attachments/assets/dae14ac0-dd95-4bb3-8350-d55b4c71a89b" />
 
+# Joins
+##### We are going to use these two tables.
+<img width="1623" height="180" alt="image" src="https://github.com/user-attachments/assets/b42d2a4b-2851-41b3-a544-6239afee26c3" />
+<img width="1623" height="205" alt="image" src="https://github.com/user-attachments/assets/e4d34a7d-aa6c-477c-a07e-8fc6329b9077" />
+
+##  INNER JOIN: 
+Combining rows from two or more tables based on a related column. 
+### 
+<img width="1620" height="236" alt="image" src="https://github.com/user-attachments/assets/0312f0b2-7a9a-426d-bede-ccfd6b1091f9" />
+
+## LEFT JOIN: 
+Retrieving all records from the left table and matching records from the right table. 
+### 
+<img width="1625" height="232" alt="image" src="https://github.com/user-attachments/assets/321f2bce-99dd-4603-b366-b1b366a4c491" />
+
+## RIGHT JOIN: 
+Retrieving all records from the right table and matching records from the left table. 
+###
+<img width="1622" height="266" alt="image" src="https://github.com/user-attachments/assets/d44c394d-94c2-4e51-85b8-0c1e61cd1d3f" />
+
+## FULL JOIN: 
+Retrieving all records when there is a match in either the left or right table. 
+###
+<img width="1623" height="306" alt="image" src="https://github.com/user-attachments/assets/654783da-7c61-4b23-a27a-be6097231de5" />
+
+## CROSS JOIN: 
+Producing the Cartesian product of two tables.
+###
+<img width="1622" height="355" alt="image" src="https://github.com/user-attachments/assets/23f935ae-8b32-4d90-bd5a-243ed3aa9bd1" />
+
+# SQL Operator: 
+## Arithmetic Operators: +, -, *, /. 
+<img width="1622" height="340" alt="image" src="https://github.com/user-attachments/assets/c19384b5-80f5-4d48-b1a2-7643f0339d43" />
+## Comparison Operators: =, !=, <, >, <=, >=. 
+<img width="1618" height="256" alt="image" src="https://github.com/user-attachments/assets/84a5142d-66e1-45b3-a34e-05d5179c90a2" />
+
+## Logical Operators: AND, OR, NOT. 
+### AND 
+<img width="1623" height="178" alt="image" src="https://github.com/user-attachments/assets/af7da5b6-e22f-4728-9d01-b1dc9356267c" />
+
+### OR
+<img width="1622" height="200" alt="image" src="https://github.com/user-attachments/assets/37434416-ed8e-4fc2-ab57-dd98a6ab56e8" />
+
+### NOT
+<img width="1623" height="187" alt="image" src="https://github.com/user-attachments/assets/15a9e303-cd00-48f4-9181-18b2a2067018" />
+
+## String Concatenation Operator: ||.
+###### //In SQL Server, use + instead of ||.
+###### //In Oracle / PostgreSQL / SQLite, use ||.
+
+<img width="1622" height="227" alt="image" src="https://github.com/user-attachments/assets/3fe03fd1-150e-4ba8-a12e-f41eb3f12d33" />
+
+# Procedures:  
+## CREATE PROCEDURE: 
+Creating stored procedures. 
+### 
+
+## ALTER PROCEDURE:
+Modifying existing stored procedures.
+###
+
+## DROP PROCEDURE: 
+Deleting stored procedures. 
+###
+
+## EXECUTE: 
+Running a stored procedure.
+###
 
 
 
