@@ -296,18 +296,23 @@ Producing the Cartesian product of two tables.
 ## CREATE PROCEDURE: 
 Creating stored procedures. 
 ### 
+<img width="1621" height="321" alt="image" src="https://github.com/user-attachments/assets/8bfb8c18-66fd-4e85-a60c-bc8065a99656" />
 
 ## ALTER PROCEDURE:
 Modifying existing stored procedures.
 ###
+<img width="1607" height="338" alt="image" src="https://github.com/user-attachments/assets/cd0c72c4-c25d-4ca4-96a0-1e55931a3571" />
 
 ## DROP PROCEDURE: 
 Deleting stored procedures. 
 ###
+<img width="1622" height="153" alt="image" src="https://github.com/user-attachments/assets/a49b0cdd-db05-4c12-98fa-b42ce2a4981c" />
+<img width="1622" height="203" alt="image" src="https://github.com/user-attachments/assets/7aa79fcb-07cb-4854-afbc-154016f4e207" />
 
 ## EXECUTE: 
 Running a stored procedure.
 ###
+<img width="1607" height="338" alt="image" src="https://github.com/user-attachments/assets/cd0c72c4-c25d-4ca4-96a0-1e55931a3571" />
 
 
 
