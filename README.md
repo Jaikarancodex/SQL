@@ -314,7 +314,33 @@ Running a stored procedure.
 ###
 <img width="1607" height="338" alt="image" src="https://github.com/user-attachments/assets/cd0c72c4-c25d-4ca4-96a0-1e55931a3571" />
 
+# Subquery, CTE (Common Table Expression): 
+## Subquery: Writing subqueries within SQL statements. 
+Basic subquery in WHERE
+###
+<img width="1625" height="233" alt="image" src="https://github.com/user-attachments/assets/df30f6fb-78eb-40a6-a78f-4ec73071de85" />
 
+###
+Subquery in SELECT
+### 
+<img width="1623" height="266" alt="image" src="https://github.com/user-attachments/assets/ed453c41-bb22-4742-b17d-31b5ea0b503c" />
+
+## CTE: Creating common table expressions for more readable queries. 
+A CTE is like giving a name to a temporary result set — so your SQL looks cleaner and easier to read than nested subqueries.
+###
+<img width="1625" height="272" alt="image" src="https://github.com/user-attachments/assets/33888bea-4e84-4182-9747-b8d8ef2ece09" />
+
+# Views: 
+## CREATE VIEW: Creating views for simplified querying. 
+A view is like saving a query permanently — a virtual table.Think of it as: “Save this complex query so I can use it like a table later.”
+###
+<img width="1626" height="217" alt="image" src="https://github.com/user-attachments/assets/8755e926-ca96-4d18-b44c-61f05539f255" />
+<img width="1625" height="147" alt="image" src="https://github.com/user-attachments/assets/d23214fe-deb9-45bf-ac1a-c2ffea3b0034" />
+
+##### //That query runs automatically behind the scenes!
+
+## DROP VIEW: Removing views. 
+<img width="1625" height="142" alt="image" src="https://github.com/user-attachments/assets/de123774-8b10-4011-9fde-c77decd07945" />
 
 
 
