@@ -1,32 +1,31 @@
 # 🌐SQL
 # Relational Database Basics
 A structured collection of data organized into tables that relate to each other via keys. It enforces consistency with rules (constraints) and lets you query with SQL.
-#### Table ≈ spreadsheet.
-#### Row (record) ≈ one item/entry.
-#### Column (field/attribute) ≈ a property of the item.
-#### Primary Key (PK): uniquely identifies a row.
-#### Foreign Key (FK): points to a PK in another table to represent relationships.
+* Table ≈ spreadsheet.
+* Row (record) ≈ one item/entry.
+* Column (field/attribute) ≈ a property of the item.
+* Primary Key (PK): uniquely identifies a row.
+* Foreign Key (FK): points to a PK in another table to represent relationships.
 
 ## Types of relationships
-#### 1–1: one row maps to one row (rare).
-#### 1–many: a department has many employees (common).
-#### many–many: students and courses (needs a junction table).
+* 1–1: one row maps to one row (rare).
+* 1–many: a department has many employees (common).
+* many–many: students and courses (needs a junction table).
 
 # DBMS (MySQL, Postgres, SQL Server)
 A DBMS stores data, enforces rules, and runs SQL.
-
-#### MySQL: very popular, great for web apps.
-#### PostgreSQL: feature-rich, strong standards compliance.
-#### SQL Server: Microsoft ecosystem, enterprise features.
+* MySQL: very popular, great for web apps.
+* PostgreSQL: feature-rich, strong standards compliance.
+* SQL Server: Microsoft ecosystem, enterprise features.
 
 # Basic SQL Syntax
 General patterns:
 ###
 <img width="1450" height="158" alt="image" src="https://github.com/user-attachments/assets/e21c44a9-16c5-4f4f-8f88-b300f9e22d48" />
 
-##### Case-insensitive for keywords (SELECT = select).
-##### Strings use single quotes 'text'.
-##### End statements with ;.
+* Case-insensitive for keywords (SELECT = select).
+* Strings use single quotes 'text'.
+* End statements with ;.
 
 # DDL — Data Definition Language
 ### CREATE, ALTER, DROP, TRUNCATE define or reshape schema.
@@ -100,8 +99,8 @@ This is where SQL shines. You can filter, sort, and analyze data easily.
 ## GRANT: Assigning privileges to database users.
 
 ### Step 1:
-##### Create a SQL Server login (server-level)
-##### Switch to the target database and create a DB user mapped to that login
+* Create a SQL Server login (server-level)
+* Switch to the target database and create a DB user mapped to that login
 <img width="1452" height="285" alt="image" src="https://github.com/user-attachments/assets/184e290b-a93a-4197-867f-db7f3002d036" />
 
 ### Step 2:
@@ -111,20 +110,20 @@ on the Employees table and Still connected as admin, run:
 <img width="1477" height="167" alt="image" src="https://github.com/user-attachments/assets/60ce7729-f601-4087-9240-6e4b95eb7ad5" />
 
 ### Step 3:
-##### ->In SSMS, right-click on your server name in Object Explorer → choose Properties.
-##### ->Go to Security (left panel).
-##### ->Under Server authentication, select: SQL Server and Windows Authentication mode
-##### ->Click OK.
-##### ->Then restart the SQL Server service (important step): In SSMS: Right-click server name → Restart.
+* ->In SSMS, right-click on your server name in Object Explorer → choose Properties.
+* ->Go to Security (left panel).
+* ->Under Server authentication, select: SQL Server and Windows Authentication mode
+* ->Click OK.
+* ->Then restart the SQL Server service (important step): In SSMS: Right-click server name → Restart.
 ###### //This allows logins like intern_user to connect using passwords.
 <img width="992" height="347" alt="image" src="https://github.com/user-attachments/assets/d5414ded-9e61-4ee9-adf9-c3a71be5d649" />
 
 ### Step 4:
-##### File → Connect → Database Engine
-##### Authentication: SQL Server Authentication
-##### Login: intern_user
-##### Password: Intern@123
-##### (Server name stays the same as your main one — don’t change it)
+* File → Connect → Database Engine
+* Authentication: SQL Server Authentication
+* Login: intern_user
+* Password: Intern@123
+* (Server name stays the same as your main one — don’t change it)
 ###
 <img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/355a496c-e859-4ef5-8464-3d61f0caa147" />
 
@@ -273,6 +272,7 @@ Producing the Cartesian product of two tables.
 # SQL Operator: 
 ## Arithmetic Operators: +, -, *, /. 
 <img width="1622" height="340" alt="image" src="https://github.com/user-attachments/assets/c19384b5-80f5-4d48-b1a2-7643f0339d43" />
+
 ## Comparison Operators: =, !=, <, >, <=, >=. 
 <img width="1618" height="256" alt="image" src="https://github.com/user-attachments/assets/84a5142d-66e1-45b3-a34e-05d5179c90a2" />
 
